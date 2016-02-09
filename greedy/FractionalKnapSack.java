@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Collections;
 
-public class fractionalKnapSack {
+public class FractionalKnapSack {
 	public static class Pair {
 		double price, weight;
 
