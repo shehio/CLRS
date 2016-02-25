@@ -22,7 +22,10 @@ public class RodCutting {
 	}
 
 	public static void main(String[] args) {
+		// All examples are 1-based, meaning the first index is the price of the rod of length 1.
 		int prices[] = { 1, 5, 8, 9, 10, 17, 17, 20 };
+		System.out.println(run(prices));
+		prices= new int []{3,5,10,12,14};
 		System.out.println(run(prices));
 	}
 
